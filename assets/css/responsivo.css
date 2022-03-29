@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+  .curriculo {
+    flex-direction: column;
+    padding: 30px 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cartao {
+    width: 90vw;
+  }
+
+  .listagem {
+    max-width: 300px;
+  }
+
+  .listagem ul {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .lista {
+    width: 140px;
+    margin-bottom: 0;
+    border-radius: 8px;
+  }
+
+  .listagem {
+    width: 140px;
+    margin-bottom: 0;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cartao h2 {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+
+  .cartao h3 {
+    font-size: 0.8rem;
+  }
+
+  .btn-curriculo {
+    justify-content: center;
+    border-radius: 8px;
+    margin-left: 0;
+    align-items: center;
+  }
+}
